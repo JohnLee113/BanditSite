@@ -1,0 +1,23 @@
+/*
+    Selector is a code snipped used to identify web page element(s)
+    Combintation of property and value is called a declaration
+    Declaration block is the term used to refer to all of the declarations applied to a single seelctor
+    at-rules are simliar to rulesets but begin with the @ sign rather than with a selector
+
+    */
+
+
+/*
+    By using the h1 as the selector, we are saying that 
+    every level 1 heading on the web page should follow
+    the declarations of this ruleset
+*/
+h1 {
+    color: red;
+    /* There are many ways to size things*/
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+
+/* Use IDs for elements that only appear once on a web page*/
